@@ -1,0 +1,13 @@
+﻿Question 4 - Macedonian Version (Localization)
+
+To produce a Macedonian version of the program that can be translated by a non-technical external translation agency, I would:
+
+1. Store all words (like the nursery rhyme, animal names, and sounds) in a resource file or external text/JSON file instead of hardcoding them in code.
+2. Provide two files: one for English (Words.en) and one for Macedonian (Words.mk).
+3. The external translation agency would only need to edit the Macedonian file (Words.mk) and provide translations. No code changes would be needed.
+4. At runtime, the application would load the appropriate file based on user choice or system language.
+5. This makes the solution scalable to multiple languages (German, French, etc.) just by adding new translation files.
+
+Example:
+English: "cow" -> "moo"
+Macedonian: "крава" -> "мууу"
